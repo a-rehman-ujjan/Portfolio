@@ -12,6 +12,7 @@ This portfolio website serves as a digital canvas where I showcase my projects, 
 2. **CSS3:** Styling the website with a focus on responsive design, user-friendly layouts, and aesthetic appeal.
 3. **JavaScript:** Adding interactivity and dynamic elements to enhance user engagement and provide a smooth browsing experience.
 4. **Version Control (Git):** Keeping track of changes and collaborating seamlessly with others in the development process.
+5. **Replit:** Leveraging Replit as the main coding environment for its collaborative features and convenient online development.
 
 ## Features
 
