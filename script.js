@@ -1,11 +1,16 @@
-const skills = ["Full Stack Development", "Wordpress Development", "Graphic Designing", "Web Designing", "CopyWriting", "SSL Solution", "Shopify & Wix", "Blockchain Development", "Web 3.0", "Artificial Inteligence", "Metaverse", "Game Development"]
+const skills = ["Full Stack Development", "Wordpress Development", "Graphic Designing", "Web Designing", "CopyWriting", "Logo Designing", "Shopify & Wix", "Blockchain Development", "Web 3.0", "Artificial Inteligence", "Metaverse", "Game Development"]
 
-const Web_Design = [`<img src="files/data/WD/01.png">`, `<img src="files/data/WD/02.png">`, `<img src="files/data/WD/03.png">`]
-const Development = [`<img src="files/data/WD/05.png">`]
-const Graphic_Design = [`<img src="files/data/WD/04.png">`]
+const Web_Design = [`<img src="files/data/WD/01.png">`, `<img src="files/data/WD/02.png">`, `<img src="files/data/WD/03.png">`, `<img src="files/data/WD/04.png">`, `<img src="files/data/WD/05.png">`]
+
+const App_Design = [`<img src="files/data/AD/01.png">`,`<img src="files/data/AD/02.png">`,`<img src="files/data/AD/03.png">`,`<img src="files/data/AD/04.png">`,`<img src="files/data/AD/05.png">`,`<img src="files/data/AD/06.png">`]
+
+const Development = [`<img src="files/data/DV/01.png">`]
+
+const Graphic_Design = [`<img src="files/data/GD/01.png">`,`<img src="files/data/GD/02.png">`]
+
 const Wordpress = []
-const Copywriting = []
-const All = Web_Design.concat(Development, Graphic_Design, Wordpress, Copywriting)
+
+const All = Web_Design.concat(App_Design, Development, Graphic_Design, Wordpress)
 
 
 
@@ -46,6 +51,9 @@ const pgcd = (array, pg) => {
     case "WD":
       cc(Web_Design, pg);
       break;
+    case "AD":
+      cc(App_Design, pg);
+      break;
     case "DV":
       cc(Development, pg);
       break;
@@ -54,9 +62,6 @@ const pgcd = (array, pg) => {
       break;
     case "WP":
       cc(Wordpress, pg);
-      break;
-    case "CW":
-      cc(Copywriting, pg);
       break;
   }
 }
