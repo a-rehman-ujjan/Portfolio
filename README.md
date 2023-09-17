@@ -2,9 +2,12 @@
 
 Welcome to the repository for my personal portfolio website! This repository showcases the code and design elements that power my online portfolio, allowing you to explore the technologies and creative approaches I've utilized to craft a captivating web presence. Feel free to browse through the code and gain insights into my web development skills and design sensibilities.
 
+💡 **But:** This is just the beginning. Over time, I'll be adding new functionalities, showcasing fresh projects, and sharing insights into my journey as a web developer and designer. I'm committed to constant improvement and evolution.
+📥 Want to reach out or collaborate? You can easily connect with me through the contact form on my website. Whether you have a project in mind, a question about web development, or just want to say hello, I'm all ears! 📬
+
 ## About the Portfolio
 
-This portfolio website serves as a digital canvas where I showcase my projects, skills, and accomplishments. It's designed to reflect my personality, creativity, and professionalism. By crafting a seamless user experience and employing modern web development techniques, I aim to make a lasting impression on visitors who want to learn more about my work and capabilities.
+This portfolio website serves as a digital canvas where I showcase my projects, skills, and accomplishments. It's designed to reflect my personality, creativity, and professionalism. By crafting a seamless user experience and employing modern web development techniques, I aim to make a lasting impression on visitors who want to learn more about my work and capabilities. you'll find all the information about me, my skills, and my experience. Dive into my projects, explore my work, and stay updated on my latest ventures.
 
 ## Technologies Used
 
@@ -25,6 +28,6 @@ Feel free to explore the codebase, make improvements, fix issues, or suggest enh
 
 ## Contact Me
 
-I'm excited to share my portfolio website with you! If you have any questions, feedback, or just want to connect, feel free to reach out to me via email at abdulrehmanujjan@yahoo.com.
+I'm excited to share my portfolio website with you! If you have any questions, feedback, or just want to connect, feel free to reach out to me via email at contact@ujjan.com.
 
 Thank you for visiting my portfolio repository and showing interest in my work!
