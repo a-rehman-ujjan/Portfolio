@@ -114,7 +114,7 @@
       </div> -->
     </div>
   </div>
-
+  <div id="preview-div" ><div id="close-c" onclick="close_preview()"></div><span class="material-symbols-rounded" id="pd-left">chevron_left</span><img src="files/data/AD/01.png"><div id="pd-close-button"><span class="material-symbols-rounded" onclick="close_preview()">close</span></div><span class="material-symbols-rounded" id="pd-right">chevron_right</span></div>
   <div id="portfolio">
     <h2 id="portfolio-heading">Portfolio</h2>
     <div id="portfolio-s1">
@@ -129,12 +129,12 @@
         </div>
         <div id="categories-in">
           <ul id="categories-data">
-            <li class="portfolio-data" id="p-data-1"></li>
-            <li class="portfolio-data" id="p-data-2"></li>
-            <li class="portfolio-data" id="p-data-3"></li>
-            <li class="portfolio-data" id="p-data-4"></li>
-            <li class="portfolio-data" id="p-data-5"></li>
-            <li class="portfolio-data" id="p-data-6"></li>
+            <li class="portfolio-data" onclick="preview('p-data-1')" id="p-data-1"></li>
+            <li class="portfolio-data" onclick="preview('p-data-2')" id="p-data-2"></li>
+            <li class="portfolio-data" onclick="preview('p-data-3')" id="p-data-3"></li>
+            <li class="portfolio-data" onclick="preview('p-data-4')" id="p-data-4"></li>
+            <li class="portfolio-data" onclick="preview('p-data-5')" id="p-data-5"></li>
+            <li class="portfolio-data" onclick="preview('p-data-6')" id="p-data-6"></li>
           </ul>
           <div id="page-slider">
             <hr>
@@ -164,29 +164,32 @@
             <ul>
               <li>
                 <span><img src="files/icon-mail.png"></span>
-                <h6>contact@ujjan.com</h6>
+                <a href="mailto:contact@ujjan.com"><h6>contact@ujjan.com</h6></a>
+              </li>
+              <li><span><img src="files/icon-linkedin.png"> </span>
+                <a href="https://www.linkedin.com/in/abdul-rehman-ujjan"><h6>abdul-rehman-ujjan</h6></a>
               </li>
               <li><span><img src="files/icon-facebook.png"></span>
-                <h6>theabdulrehmanujjan</h6>
+                <a href="https://www.facebook.com/theabdulrehmanujjan"><h6>theabdulrehmanujjan</h6></a>
               </li>
             </ul>
             <h3>Social Handles</h3>
             <ul>
+              <li><span><img src="files/icon-github.png"> </span>
+                <a href="https://github.com/a-rehman-ujjan"><h6>a-rehman-ujjan</h6></a>
+              </li>
               <li><span><img src="files/icon-instagram.png"> </span>
-                <h6>a_rehman_ujjan</h6>
+                <a href="https://www.instagram.com/a_rehman_ujjan"><h6>a_rehman_ujjan</h6></a>
               </li>
               <li><span><img src="files/icon-twitter.png"> </span>
-                <h6>a_rehman_ujjan</h6>
-              </li>
-              <li><span><img src="files/icon-linkedin.png"> </span>
-                <h6>abdul-rehman-ujjan</h6>
+                <a href="https://www.twitter.com/a_rehman_ujjan"><h6>a_rehman_ujjan</h6></a>
               </li>
             </ul>
           </div>
         </div>
         <div id="form-card">
-          <form action="https://formsubmit.co/abdulrehmanujjan@yahoo.com" method="POST"">
-            <input type=" text" name="name" id="form-name" placeholder="Name">
+          <form action="https://formsubmit.co/abdulrehmanujjan@yahoo.com" method="POST">
+            <input type="text" name="name" id="form-name" placeholder="Name">
             <input type="email" name="email" id="form-email" placeholder="Email" required>
             <textarea id="form-message" name="message" rows="6" placeholder="Message" required></textarea>
             <input type="hidden" name="_captcha" value="false">
@@ -220,12 +223,14 @@
     </div>
     <div id="f-s2">
       <ul id="f-social-links">
+        <li><a href="https://github.com/a-rehman-ujjan"><img src="files/icon-github.png"></a></li>
         <li><a href="https://www.twitter.com/a_rehman_ujjan"><img src="files/icon-twitter.png"></a></li>
         <li><a href="https://www.facebook.com/theabdulrehmanujjan"><img src="files/icon-facebook.png"></a></li>
         <li><a href="https://www.linkedin.com/in/abdul-rehman-ujjan"><img src="files/icon-linkedin.png"></a></li>
         <li><a href="https://www.instagram.com/a_rehman_ujjan"><img src="files/icon-instagram.png"></a></li>
       </ul>
       <a href="mailto:contacts@ujjan.com"><h6>Contact@ujjan.com</h6></a>
+      
     </div>
   </div>
 
