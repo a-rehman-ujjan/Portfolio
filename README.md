@@ -28,6 +28,6 @@ Feel free to explore the codebase, make improvements, fix issues, or suggest enh
 
 ## Contact Me
 
-I'm excited to share my portfolio website with you! If you have any questions, feedback, or just want to connect, feel free to reach out to me via email at contact@ujjan.com.
+I'm excited to share my portfolio website with you! If you have any questions, or feedback, or just want to connect, feel free to reach out to me via email at contact@ujjan.com.
 
 Thank you for visiting my portfolio repository and showing interest in my work!
